@@ -100,7 +100,7 @@ These routes will be available once the application is running.
    - Path Parameters: assignment_id (ID of the assignment to update), status (new status of the assignment, e.g., accepted or rejected).
 
 # Postman Setup
-1. Test Data: Use the provided test_data.json to set up test cases in Postman. You can import this file into Postman for easy testing.
+1. Test Data: Use the provided test_data.json to set up test cases in Postman. You can import this file into Postman for easy testing. Key(Content-Type) , Values(application/json)
 2. User Registration and Login:
    - For registration, send a POST request to http://127.0.0.1:5000/user/register with the necessary username and password.
    - For login, send a POST request to http://127.0.0.1:5000/user/login and get the JWT token.
