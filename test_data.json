@@ -1,0 +1,26 @@
+{
+    "user": {
+        "register": {
+            "username": "john_doe",
+            "password": "password123"
+        },
+        "login": {
+            "username": "john_doe",
+            "password": "password123"
+        },
+        "upload_assignment": {
+            "task": "Complete the Flask project",
+            "admin": "admin_user"
+        }
+    },
+    "admin": {
+        "register": {
+            "username": "admin_user",
+            "password": "admin123"
+        },
+        "login": {
+            "username": "admin_user",
+            "password": "admin123"
+        }
+    }
+}
